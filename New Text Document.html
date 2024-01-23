@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Calculator</title>
+  </head>
+
+  <body>
+    <section class="calculator">
+      <form>
+        <input type="text" class="screen" id="screen" />
+      </form>
+      <div class="buttons-div">
+        <button type="button" class="btn btn-green" onclick="BtnValue('*')">*</button>
+        <button type="button" class="btn btn-green" onclick="BtnValue('/')">/</button>
+        <button type="button" class="btn btn-green" onclick="BtnValue('-')">-</button>
+        <button type="button" class="btn btn-green" onclick="BtnValue('+')">+</button>
+
+        <button type="button" class="btn btn-black" onclick="BtnValue('9')">9</button>
+        <button type="button" class="btn btn-black" onclick="BtnValue('8')">8</button>
+        <button type="button" class="btn btn-black" onclick="BtnValue('7')">7</button>
+        <button type="button" class="btn btn-black" onclick="BtnValue('6')">6</button>
+        <button type="button" class="btn btn-black" onclick="BtnValue('5')">5</button>
+        <button type="button" class="btn btn-black" onclick="BtnValue('4')">4</button>
+        <button type="button" class="btn btn-black" onclick="BtnValue('3')">3</button>
+        <button type="button" class="btn btn-black" onclick="BtnValue('2')">2</button>
+        <button type="button" class="btn btn-black" onclick="BtnValue('1')">1</button>
+        <button type="button" class="btn btn-black" onclick="BtnValue('0')">0</button>
+        <button type="button" class="btn btn-black" onclick="BtnValue('.')">.</button>
+        
+        <button type="button" class="btn btn-equal" id="equal" onclick="calcValue()">=</button>
+        <button type="button" class="btn btn-clear" onclick="clearValue()">C</button>
+      </div>
+
+    </section>
+
+
+
+
+   <script src="app.js"></script>
+
+  </body>
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- <script> -->
+
+    <!-- //  let screen = document.getElementById("screen");
+    //  let buttons = document.querySelectorAll(".btn");
+    //  let clear = document.querySelector(".btn-clear");
+    //  let equal = document.getElementById("equal");
+
+    // buttons.forEach((btn) =>{
+    //   btn.addEventListener("click", () => {
+    //     // switch (btn.textContent) {
+        //   case "C":
+        //     screen.value = "0";
+        //     break;
+        //   case "DE":
+        //     screen.value = screen.value.slice(0, -1);
+        //     if (screen.value == "") {
+        //       screen.value = "0";
+        //     } else if (screen.value == "0") {
+        //       screen.value = btn.textContent;
+        //     }
+        //     break;
+        //   case "=":
+        //     screen.value = eval(screen.value);
+        //     break;
+        //   default:
+        //     if (screen.value == "0") {
+        //       screen.value = btn.textContent;
+        //     } else screen.value += btn.textContent;
+      //  }
+    //   });
+
+    // }); -->
+  <!-- </script> -->
+</html>
